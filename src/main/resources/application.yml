@@ -10,3 +10,5 @@ spring:
   datasource:
     url: jdbc:sqlite:/home/data/database.db
     driver-class-name: org.sqlite.JDBC
+  mvc:
+    static-path-pattern: /static/**  # 配置静态资源的路径模式，这里表示所有以 /static/ 开头的请求都会被映射到静态资源
