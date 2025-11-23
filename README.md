@@ -1,2 +1,2 @@
 # tiny-java-springboot
-## iv-minimal
+## minima-java-project
